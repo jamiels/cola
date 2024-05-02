@@ -32,6 +32,6 @@ red_pixels = ((hue_layer <= upper_red) & (hue_layer >= lower_red)) | \
 
 # Visualization of red pixels
 plt.imshow(red_pixels, cmap='gray')  # Show red pixels in white and others in black
-plt.title('Red Pixels in the Image')
+plt.title('Red Hues in the Image')
 plt.axis('off')  # Turn off axis labels
 plt.show()
